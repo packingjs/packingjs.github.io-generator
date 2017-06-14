@@ -1,6 +1,6 @@
 ---
 id: migrating
-title: 从 v1 升级到 v2
+title: 升级到 v2
 layout: docs
 category: 高级主题
 permalink: docs/migrating.html

@@ -15,7 +15,7 @@ var React = require('React');
 var HeaderLinks = React.createClass({
   links: [
     {section: 'docs', href: '/docs/overview.html#content', text: '文档'},
-    {section: 'github', href: 'https://github.com/qailsjs/qails', text: 'github'},
+    {section: 'github', href: 'https://github.com/packingjs/packing', text: 'github'},
   ],
 
   render: function() {

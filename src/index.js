@@ -24,7 +24,7 @@ var index = React.createClass({
       <Site>
         <div className="hero">
           <div className="wrap">
-            <div className="text"><strong>qails</strong></div>
+            <div className="text"><strong>packing</strong></div>
             <div className="minitext">
               简约而不简单的前端工具
             </div>
@@ -48,7 +48,7 @@ var index = React.createClass({
 
           <section className="home-bottom-section">
             <div className="buttons-unit">
-              <a href="docs/overview.html#content" className="button">开始学习 qails</a>
+              <a href="docs/overview.html#content" className="button">开始学习</a>
             </div>
           </section>
         </section>

@@ -16,7 +16,7 @@ var HeaderLinks = require('HeaderLinks');
 var Site = React.createClass({
   render: function() {
     const titlePrefix = this.props.pageTitle ? this.props.pageTitle.concat(' | ') : '';
-    const title = `${titlePrefix}qails`;
+    const title = `${titlePrefix}packing`;
     return (
       <html>
         <head>
@@ -34,7 +34,7 @@ var Site = React.createClass({
           <div className="container">
             <div className="nav-main">
               <div className="wrap">
-                <a className="nav-home" href="/">qails</a>
+                <a className="nav-home" href="/">packing</a>
                 <HeaderLinks section={this.props.section} />
               </div>
             </div>

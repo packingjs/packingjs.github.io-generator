@@ -56,7 +56,7 @@ glob('src/**/*', {nodir: true}, function(er, files) {
   });
 
   queue = queue.then(function() {
-    console.log('It is live at: https://qails.github.io/');
+    console.log('It is live at: https://packingjs.github.io/');
   }).finally(function() {
     server.close();
   }).catch(function(e) {
