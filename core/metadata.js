@@ -5,12 +5,20 @@
 module.exports = {
   "files": [
     {
-      "id": "building",
-      "title": "building",
+      "id": "babel",
+      "title": "用 ES6 开发",
       "layout": "docs",
       "category": "高级主题",
-      "next": "migrating",
-      "permalink": "docs/building.html"
+      "next": "jenkins",
+      "permalink": "docs/babel.html"
+    },
+    {
+      "id": "build",
+      "title": "编译",
+      "layout": "docs",
+      "category": "快速入门",
+      "next": "router",
+      "permalink": "docs/build.html"
     },
     {
       "id": "commands",
@@ -25,23 +33,15 @@ module.exports = {
       "title": "配置",
       "layout": "docs",
       "category": "快速入门",
-      "next": "deploy",
+      "next": "build",
       "permalink": "docs/configuration.html"
-    },
-    {
-      "id": "deploy",
-      "title": "发布部署",
-      "layout": "docs",
-      "category": "快速入门",
-      "next": "router",
-      "permalink": "docs/deploy.html"
     },
     {
       "id": "eslint",
       "title": "eslint",
       "layout": "docs",
       "category": "高级主题",
-      "next": "building",
+      "next": "babel",
       "permalink": "docs/eslint.html"
     },
     {
@@ -51,6 +51,14 @@ module.exports = {
       "category": "快速入门",
       "next": "commands",
       "permalink": "docs/installation.html"
+    },
+    {
+      "id": "jenkins",
+      "title": "用 Jenkins 发布",
+      "layout": "docs",
+      "category": "高级主题",
+      "next": "migrating",
+      "permalink": "docs/jenkins.html"
     },
     {
       "id": "migrating",

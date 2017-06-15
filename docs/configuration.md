@@ -3,16 +3,16 @@ id: configuration
 title: 配置
 layout: docs
 category: 快速入门
-next: deploy
+next: build
 permalink: docs/configuration.html
 ---
 
 为了简化使用门槛，packing 隐藏了很多 webpack 配置，内置了一些常用的 loader 和 plugin，工程师甚至可以不做任何配置就能使用 packing。
 
-packing 中有2种配置文件。
+packing 中有2种配置文件：
 
-- 一种是 packing 的配置，这个是控制项目的配置。
-- 一种是 webpack 配置文件。
+- 一种是 packing 配置文件，用来控制项目的配置。
+- 一种是 webpack 配置文件，用来控制 webpack。
 
 ## packing 配置文件
 packing 配置文件是一个对象(configuration object)。

@@ -15,7 +15,7 @@ var Metadata = require('Metadata');
 var DocsSidebar = React.createClass({
   getCategories: function() {
     var metadatas = Metadata.files.filter(function(metadata) {
-      return metadata.layout === 'docs' || metadata.layout === 'autodocs';
+      return metadata.layout === 'docs';
     });
 
     // Build a hashmap of article_id -> metadata
@@ -31,7 +31,6 @@ var DocsSidebar = React.createClass({
       var metadata = metadatas[i];
       if (metadata.next) {
         if (!articles[metadata.next]) {
-          console.log(metadata.next);
           throw '`next: ' + metadata.next + '` in ' + metadata.id + ' doesn\'t exist';
         }
         previous[articles[metadata.next].id] = metadata.id;
@@ -70,7 +69,10 @@ var DocsSidebar = React.createClass({
   },
 
   getLink: function(metadata) {
-    return metadata.permalink;
+    if (metadata.permalink.match(/^https?:/)) {
+      return metadata.permalink;
+    }
+    return '/' + metadata.permalink + '#content';
   },
 
   render: function() {

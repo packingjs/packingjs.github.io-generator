@@ -46,3 +46,25 @@ yarn add packing
     ```
     yo packing
     ```
+
+## 新项目目录结构
+
+```
+.
+├── /config/                     # 配置目录
+│   ├── /packing.js              # 构建工具相关配置文件
+│   ├── /webpack.build.babel.js  # webpack编译环境配置文件
+│   ├── /webpack.dll.babel.js    # DllPlugin插件编译配置文件
+│   └── /webpack.serve:dist.js   # webpack预览编译后结果的配置文件
+├── /mock/                       # 模拟数据目录
+│   ├── /pages/                  # 模版页面初始化数据目录
+│   └── /api/                    # ajax请求模拟数据目录
+├── /src/                        # 项目代码容器目录
+│   ├── /entries/                # javascript入口文件
+│   └── /templates/              # 模版文件
+├── /util/                       # util
+├── .babelrc                     # babel配置文件
+├── .editorconfig                # 编辑器格式配置文件
+├── .eslintrc.js                 # eslint配置文件
+└── build.sh                     # jenkins编译脚本，如果使用 node 方式编译请忽略该文件                 
+```
