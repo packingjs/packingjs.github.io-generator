@@ -14,6 +14,7 @@ var React = require('React');
 var Site = require('Site');
 var Marked = require('Marked');
 var DocsSidebar = require('DocsSidebar');
+var Footer = require('Footer');
 var DocsLayout = React.createClass({
   render: function() {
     var metadata = this.props.metadata;
@@ -30,6 +31,7 @@ var DocsLayout = React.createClass({
               {metadata.previous && <a className="docs-prev" href={metadata.previous + '.html#content'}>&larr; Prev</a>}
               {metadata.next && <a className="docs-next" href={metadata.next + '.html#content'}>Next &rarr;</a>}
             </div>
+            <Footer />
           </div>
         </section>
       </Site>

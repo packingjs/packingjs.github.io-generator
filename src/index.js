@@ -25,14 +25,15 @@ var index = React.createClass({
         <div className="hero">
           <div className="wrap">
             <div className="text"><strong>packing</strong></div>
-            <div className="minitext">
-              简约而不简单的前端工具
+            <div className="minitext">一个简单易用的前端开发工具</div>
+            <div className="buttons-unit">
+              <a href="docs/overview.html#content" className="button">开始 packing 学习之旅</a>
             </div>
           </div>
         </div>
 
         <section className="content wrap">
-          <section className="home-section home-getting-started">
+          <div className="features">
             <p>
               Packing 是一个基于 webpack 的前端开发环境和项目构建工具。她来源于实际工作，根据公司的实际情况，对 webpack 复杂的配置做了大量的预设置工作，让工程师不必关注 webpack 所有的配置，只需要了解少量和项目相关的配置就能够进行开发，降低了 webpack 的使用门槛，从而达到在团队中快速推广新技术的目录。
             </p>
@@ -44,13 +45,7 @@ var index = React.createClass({
             <p>
               Packing 还针对以往项目中遇到的通用问题进行了抽象和封装，如：数据模拟、URL 转发、模块热替换、配置文件环境差异化等。
             </p>
-          </section>
-
-          <section className="home-bottom-section">
-            <div className="buttons-unit">
-              <a href="docs/overview.html#content" className="button">开始学习</a>
-            </div>
-          </section>
+          </div>
         </section>
 
       </Site>
