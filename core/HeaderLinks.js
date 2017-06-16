@@ -10,7 +10,7 @@
  */
 
 var React = require('React');
-// var AlgoliaDocSearch = require('AlgoliaDocSearch');
+var AlgoliaDocSearch = require('AlgoliaDocSearch');
 
 var HeaderLinks = React.createClass({
   linksInternal: [
@@ -43,9 +43,7 @@ var HeaderLinks = React.createClass({
           {this.makeLinks(this.linksInternal)}
         </ul>
 
-        {/*
-          <AlgoliaDocSearch />
-        */}
+        <AlgoliaDocSearch />
 
         <ul className="nav-site nav-site-external">
           {this.makeLinks(this.linksExternal)}
