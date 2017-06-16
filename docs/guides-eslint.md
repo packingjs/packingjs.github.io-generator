@@ -2,8 +2,8 @@
 id: eslint
 title: eslint
 layout: docs
-category: 高级主题
-next: babel
+category: 使用指南
+next: es6
 permalink: docs/eslint.html
 ---
 

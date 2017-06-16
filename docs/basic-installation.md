@@ -2,7 +2,7 @@
 id: installation
 title: 安装
 layout: docs
-category: 快速入门
+category: 基础知识
 next: commands
 permalink: docs/installation.html
 ---

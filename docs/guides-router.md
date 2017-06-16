@@ -2,7 +2,7 @@
 id: router
 title: 路由
 layout: docs
-category: 高级主题
+category: 使用指南
 next: mock
 permalink: docs/router.html
 ---

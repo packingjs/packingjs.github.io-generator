@@ -1,10 +1,10 @@
 ---
-id: babel
+id: es6
 title: 用 ES6 开发
 layout: docs
-category: 高级主题
-next: jenkins
-permalink: docs/babel.html
+category: 使用指南
+next: static
+permalink: docs/es6.html
 ---
 
 Packing 默认配置好了 babel ，你可以开箱即用，项目中所有代码都可以使用 ES6 来编写。

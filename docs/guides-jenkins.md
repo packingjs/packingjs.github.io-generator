@@ -2,8 +2,8 @@
 id: jenkins
 title: 用 Jenkins 发布
 layout: docs
-category: 高级主题
-next: migrating
+category: 使用指南
+next: migrating-v2
 permalink: docs/jenkins.html
 ---
 

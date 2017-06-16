@@ -1,9 +1,10 @@
 ---
-id: migrating
+id: migrating-v2
 title: 升级到 v2
 layout: docs
-category: 高级主题
-permalink: docs/migrating.html
+category: 使用指南
+next: change-log
+permalink: docs/migrating-v2.html
 ---
 
 支持 yarn 是 v2 的一个重要功能。

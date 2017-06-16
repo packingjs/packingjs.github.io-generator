@@ -2,7 +2,7 @@
 id: build
 title: 编译
 layout: docs
-category: 快速入门
+category: 基础知识
 next: router
 permalink: docs/build.html
 ---

@@ -968,7 +968,7 @@ section.black content {
 .documentationContent {
   *zoom: 1;
   padding-top: 20px;
-  padding-bottom: 80px; }
+  padding-bottom: 20px; }
 
 .documentationContent:before, .documentationContent:after {
   content: " ";
@@ -1259,11 +1259,13 @@ small code, li code, p code {
   background: #EAF8FD;
   outline: none; }
 
+/*
 @media screen and (max-width: 680px) {
   .container {
     padding-top: 100px; }
   .nav-docs {
     padding-top: 103px; } }
+*/
 
 .post {
   margin-bottom: 30px; }

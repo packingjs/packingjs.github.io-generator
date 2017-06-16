@@ -2,7 +2,7 @@
 id: commands
 title: 命令
 layout: docs
-category: 快速入门
+category: 基础知识
 next: configuration
 permalink: docs/commands.html
 ---

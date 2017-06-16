@@ -2,7 +2,7 @@
 id: vender
 title: vender
 layout: docs
-category: 高级主题
+category: 使用指南
 next: profiles
 permalink: docs/vender.html
 ---

@@ -2,7 +2,7 @@
 id: mock
 title: 数据模拟
 layout: docs
-category: 高级主题
+category: 使用指南
 next: vender
 permalink: docs/mock.html
 ---

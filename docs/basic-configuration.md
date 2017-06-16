@@ -2,7 +2,7 @@
 id: configuration
 title: 配置
 layout: docs
-category: 快速入门
+category: 基础知识
 next: build
 permalink: docs/configuration.html
 ---

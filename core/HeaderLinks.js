@@ -13,11 +13,11 @@ var React = require('React');
 
 var HeaderLinks = React.createClass({
   linksInternal: [
-    {section: 'docs', href: '/docs/overview.html', text: '文档', target: '.nav-docs'},
+    {section: 'docs', href: '/docs/getting-started.html', text: '文档', target: '.nav-docs'},
   ],
   linksExternal: [
     {section: 'github', href: 'https://github.com/packingjs', text: 'GitHub'},
-    {section: 'qails', href: 'https://qails.github.com', text: 'Qails'}
+    {section: 'qails', href: 'https://qails.github.io', text: 'Qails'}
   ],
 
   makeLinks: function(links) {

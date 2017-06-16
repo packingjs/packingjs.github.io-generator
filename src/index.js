@@ -27,7 +27,7 @@ var index = React.createClass({
             <div className="text"><strong>packing</strong></div>
             <div className="minitext">一个简单易用的前端开发工具</div>
             <div className="buttons-unit">
-              <a href="docs/overview.html#content" className="button">开始 packing 学习之旅</a>
+              <a href="docs/getting-started.html#content" className="button">开始 packing 学习之旅</a>
             </div>
           </div>
         </div>
