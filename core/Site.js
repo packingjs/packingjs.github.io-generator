@@ -26,7 +26,8 @@ var Site = React.createClass({
           <title>{title}</title>
           <meta name="viewport" content="width=device-width" />
           <link rel="shortcut icon" href="/images/favicon.png" />
-          <link rel="stylesheet" href="/css/qailsjs.css" />
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
+          <link rel="stylesheet" href="/css/packingjs.css" />
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.4/es6-shim.min.js"></script>
         </head>
         <body>
@@ -35,7 +36,7 @@ var Site = React.createClass({
             <div className="nav-main">
               <div className="wrap">
                 <a className="nav-home" href="/">
-                  <img src="/images/favicon.png" alt="packing logo" /> packing
+                  <img src="/images/favicon.png" alt="packing logo" />packing
                 </a>
                 <HeaderLinks section={this.props.section} />
               </div>
@@ -44,7 +45,7 @@ var Site = React.createClass({
             {this.props.children}
 
             <footer className="nav-footer">
-              <a href="https://code.facebook.com/projects/" target="_blank" className="fbOpenSource">
+              <a href="https://packingjs.github.io" target="_blank" className="fbOpenSource">
                 <img src="/images/favicon.png" alt="Packing" width="45" height="45"/>
               </a>
               <section className="copyright">
@@ -54,6 +55,11 @@ var Site = React.createClass({
           </div>
 
           <div id="fb-root" />
+          <script src="/js/scripts.js" />
+          <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"
+          />
         </body>
       </html>
     );

@@ -42,7 +42,6 @@ function execute() {
   };
 
   var files = glob.sync(MD_DIR + '**/*.*');
-  console.log('---files---', files);
   files.forEach(function(file) {
     var extension = path.extname(file);
     if (extension === '.md' || extension === '.markdown') {

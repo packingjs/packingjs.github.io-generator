@@ -637,6 +637,12 @@ h1:hover .hash-link, h2:hover .hash-link, h3:hover .hash-link, h4:hover .hash-li
   font-weight: 300;
   line-height: 50px; }
 
+/*.nav-main .icon-menu::before {
+  display: inline-block;
+  width: 100px;
+  content: "\F10D";
+  background-color: red;}*/
+
 .nav-home img {
   vertical-align: -9px;
   margin-right: 8px;
@@ -1595,7 +1601,7 @@ div.algolia-search-wrapper {
     display: none; } }
 
 input#algolia-doc-search {
-  background: transparent url("../img/search.png") no-repeat 10px center;
+  background: transparent url("../images/search.png") no-repeat 10px center;
   background-size: 16px 16px;
   font-family: inherit;
   padding: 0 10px;
