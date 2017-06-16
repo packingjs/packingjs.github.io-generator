@@ -26,7 +26,7 @@ glob('src/**/*', {nodir: true}, function(er, files) {
   files.forEach(function(file) {
     var targetFile = file.replace(/^src/, 'dist');
 
-    if (file.match(/\.js$/) && !file.match(/\/lib\//)) {
+    if (file.match(/\.js$/) && !file.match(/\/js\//)) {
       targetFile = targetFile.replace(/\.js$/, '.html');
       queue = queue.then(function() {
         return new Promise(function(resolve, reject) {
