@@ -26,7 +26,6 @@ var Site = React.createClass({
           <title>{title}</title>
           <meta name="viewport" content="width=device-width" />
           <link rel="shortcut icon" href="/images/favicon.png" />
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" />
           <link rel="stylesheet" href="/css/packingjs.css" />
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.4/es6-shim.min.js"></script>
         </head>
@@ -56,10 +55,6 @@ var Site = React.createClass({
 
           <div id="fb-root" />
           <script src="/js/scripts.js" />
-          <script
-            type="text/javascript"
-            src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"
-          />
         </body>
       </html>
     );

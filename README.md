@@ -1,4 +1,4 @@
-# qailsjs.github.io
+# packingjs.github.io
 
 根据 `/docs/*.md` 生成文档网站 [https://packingjs.github.io](https://packingjs.github.io)
 
