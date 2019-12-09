@@ -7,6 +7,6 @@
 # 本地调试预览
 npm start
 
-# 部署上线
+# 部署上线.
 npm run deploy
 ```
