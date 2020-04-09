@@ -11,7 +11,7 @@ packing 内置了以下几个命令：
 
 命令|参数|说明
 ---|---|---
-packing serve|-c, --clean_cache 强制清除 `dll` 缓存<br>-o, --open_browser 自动打开浏览器 |启动开发服务器
+packing serve|-c, --clean_cache 强制清除 `dll` 缓存<br>-o, --open_browser 自动打开浏览器<br>-p, --partial 编译部分页面 |启动开发服务器
 packing build|无|编译项目
 packing serve-dist|无|预览编译后的产出物
 
